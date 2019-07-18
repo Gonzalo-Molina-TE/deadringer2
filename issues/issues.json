@@ -1,0 +1,78 @@
+[
+  {
+    "Id": 553,
+    "Title": "Import source code from duplicate tracker project"
+  },
+  {
+    "Id": 554,
+    "Title": "Create SVN directory structure"
+  },
+  {
+    "Id": 555,
+    "Title": "Upload test files"
+  },
+  {
+    "Id": 570,
+    "Title": "More image formats"
+  },
+  {
+    "Id": 697,
+    "Title": "Add ability to swap algorithms"
+  },
+  {
+    "Id": 698,
+    "Title": "Need output reporting"
+  },
+  {
+    "Id": 699,
+    "Title": "SSIM research"
+  },
+  {
+    "Id": 700,
+    "Title": "Need to be able to open/parse audio"
+  },
+  {
+    "Id": 701,
+    "Title": "Take a file as input"
+  },
+  {
+    "Id": 703,
+    "Title": "Program uses 32 bpp when it only needs 8"
+  },
+  {
+    "Id": 868,
+    "Title": "image size is reported incorrectly."
+  },
+  {
+    "Id": 1103,
+    "Title": "Delete button broken"
+  },
+  {
+    "Id": 1206,
+    "Title": "Deleting original doesn't give the option to delete any other duplicates"
+  },
+  {
+    "Id": 1207,
+    "Title": "Order results from most to least similar"
+  },
+  {
+    "Id": 1208,
+    "Title": "Allow sorting of duplicate columns"
+  },
+  {
+    "Id": 1209,
+    "Title": "Display luminance, contrast and structure values for SSIM in list view"
+  },
+  {
+    "Id": 1226,
+    "Title": "Need to fix binning of images"
+  },
+  {
+    "Id": 1309,
+    "Title": "In pre-processing stage, add option to do edge detection on the images"
+  },
+  {
+    "Id": 1359,
+    "Title": "Bug: search never ends on Vista"
+  }
+]

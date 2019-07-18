@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Fixed",
+    "ClosedDate": "2009-04-23T09:44:21.287-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Program stores thumbnail images in RGBA format when it only needs a greyscale (Y) channel.  There's some code in place to convert to a greyscale image, but it isn't called.  This would be a 75% improvement in the algorithm's run speed/reduce memory/etc.  Look into it.",
+    "LastUpdatedDate": "2013-05-16T01:00:12.197-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "deadringer",
+    "ReportedDate": "2009-04-21T18:21:35.79-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Program uses 32 bpp when it only needs 8",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 703
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Fixed--we now discard all values but the single gray scale value.  Resulted in about a 15x improvement in computation speed, since the Levenshtein algorithm is O(n^2), and n went from 1024 to 256. (basically, about  1000k computations to 65k computations for that data set)",
+      "PostedDate": "2009-04-23T09:44:07.613-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-04-23T09:44:21.287-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-13T19:34:50.18-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T01:00:12.197-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

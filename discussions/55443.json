@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "187206",
+    "ThreadId": "55443",
+    "Html": "Hi, <br>\r\n<br>\r\nThere is a file missing, DupliFinder\\Processing\\ComparisonAlgorithm.cs' <br>\r\n<br>\r\nCan you repost with the file incuded?<br>\r\n<br>\r\nCheers<br>\r\n<br>\r\njay<br>\r\n<br>\r\n",
+    "PostedDate": "2009-05-05T22:48:09.49-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "187881",
+    "ThreadId": "55443",
+    "Html": "Jay,<br>\r\n<br>\r\nThe file has been added.&nbsp; Sorry about that.&nbsp; Currently we're still hammering through some of the changes we want to make so we can test different algorithms, so stuff will be a bit rough for the next week or two.&nbsp; Any input is welcome.<br>\r\n<br>\r\nThanks,<br>\r\n<br>\r\nJeremy \r\n",
+    "PostedDate": "2009-05-07T14:01:59.307-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "188378",
+    "ThreadId": "55443",
+    "Html": "<p>Hi Jeremy,</p>\r\n<p>No problems, thanks for reposting and I will check it out now and will be happy to give you feedback.</p>\r\n<p>Cheers</p>\r\n<p>jay</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-05-08T23:41:41.01-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

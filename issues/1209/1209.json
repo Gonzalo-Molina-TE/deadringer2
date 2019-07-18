@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Should display each of these components separately (this will help us see which weighting is most meaningful).  Need to add code that's smart enough to add the necessary columns",
+    "LastUpdatedDate": "2013-02-13T19:34:48.91-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "deadringer",
+    "ReportedDate": "2009-05-12T18:57:59.103-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Display luminance, contrast and structure values for SSIM in list view",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1209
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

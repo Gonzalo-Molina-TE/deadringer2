@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "197451",
+    "ThreadId": "58380",
+    "Html": "<p>Like the title says, we're open to new feature requests.&nbsp; If you have an idea you'd like to see in the app, let us know.</p>",
+    "PostedDate": "2009-06-03T14:29:46.4-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "197453",
+    "ThreadId": "58380",
+    "Html": "<p>Currently, we're working on adding a new pre-processing framework to the application.&nbsp; We think this will allow better normalization of the images, and improved results when images have been heavily edited (for example, color inversion, embossed images, etc.)&nbsp; We're also considering a few other algorithms (including a full-blown version of MSSIM, using the gaussian weighting).</p>",
+    "PostedDate": "2009-06-03T14:32:36.5-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "As a way of \"normalizing\" images, we do edge detection prior to running them through various algorithms.  It's possible that this will help find matches among images that have undergone drastic changes, but still have the same underlying structure.",
+    "LastUpdatedDate": "2013-02-13T19:34:48.583-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "deadringer",
+    "ReportedDate": "2009-05-19T16:45:10.647-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "In pre-processing stage, add option to do edge detection on the images",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1309
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

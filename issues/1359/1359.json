@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "resolved--Directory.GetFiles() has an incredibly stupid design and non-standard behavior for submitted wildcards.\n\nFixed it so any duplicate paths are removed from the list of images found.",
+    "ClosedDate": "2009-05-21T07:51:44.45-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Bug where searches go on and on and on...only seems to happen on vista.",
+    "LastUpdatedDate": "2013-05-16T01:00:10.41-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "deadringer",
+    "ReportedDate": "2009-05-21T07:51:01.023-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Bug: search never ends on Vista",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1359
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

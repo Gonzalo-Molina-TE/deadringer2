@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "re-wired up button; broke during GUI changes.  closing issue.",
+    "ClosedDate": "2009-05-12T17:18:36.7-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need to re-wire up the delete button; it got broken in the GUI reworking.",
+    "LastUpdatedDate": "2013-05-16T01:00:11.9-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "deadringer",
+    "ReportedDate": "2009-05-08T11:14:13.47-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Delete button broken",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1103
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "Id": "0",
+    "Name": "Discussion and Results",
+    "DevelopmentStatus": "Planning",
+    "Description": "This is a report we put together on DeadRinger's changes from the original, the algorithms used and results we found.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-04-18T07:38:25.837-07:00",
+    "Files": [
+      {
+        "Id": "a01219a6-2b02-4f5b-9836-393516b09a5c",
+        "FileName": "ECE477Final.pdf",
+        "Url": "./0/a01219a6-2b02-4f5b-9836-393516b09a5c",
+        "Type": "Application",
+        "UploadDate": "2013-04-18T07:38:25.65-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "DeadRinger 1.0",
+    "DevelopmentStatus": "Alpha",
+    "Description": "First release of the application.  No installer, just the raw binaries for now.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-05-26T19:53:27.477-07:00",
+    "Files": [
+      {
+        "Id": "6601a649-e68f-47cf-99d4-bdee46417d56",
+        "FileName": "DupliFinder.exe",
+        "Url": "./1/6601a649-e68f-47cf-99d4-bdee46417d56",
+        "Type": "Application",
+        "UploadDate": "2009-05-26T19:53:27.307-07:00"
+      },
+      {
+        "Id": "eb25a9cf-a254-4d5c-9ac8-6ec5a20575dc",
+        "FileName": "SiftStringSimilarity.dll",
+        "Url": "./1/eb25a9cf-a254-4d5c-9ac8-6ec5a20575dc",
+        "Type": "Application",
+        "UploadDate": "2009-05-26T19:53:27.337-07:00"
+      }
+    ]
+  }
+]

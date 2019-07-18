@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Added code to allow results to be sorted by clicking on a column header.  by default, it sorts floats if the column is float; otherwise, it treats the column as string data.",
+    "ClosedDate": "2009-05-14T17:37:02.37-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Add feature to allow sorting of columns.",
+    "LastUpdatedDate": "2013-05-16T01:00:11.25-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "deadringer",
+    "ReportedDate": "2009-05-12T17:55:52.5-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Allow sorting of duplicate columns",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1208
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

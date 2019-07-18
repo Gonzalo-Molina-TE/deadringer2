@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Fixed--we now bin images in such a way that potentially better matches aren't lost/never performed.",
+    "ClosedDate": "2009-05-21T07:49:56.37-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When a \"duplicate\" is found, it's associated with a list of other duplicates to the original, but it isn't clear to me if the application checks to see if there's another fit that's better, or if it simply bins something as soon as it finds a match that meets the similarity threshold.  \n \nNeed to investigate how this happens.",
+    "LastUpdatedDate": "2013-05-16T01:00:11.01-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "deadringer",
+    "ReportedDate": "2009-05-13T09:20:45.62-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need to fix binning of images",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1226
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

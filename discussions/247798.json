@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "572960",
+    "ThreadId": "247798",
+    "Html": "\r\n<p>I was thinking about making some mods to DupliFinder but didn't notice till just now that this project has made some good advances.</p>\r\n<p>So my questions are:</p>\r\n<p>1)&nbsp; Do you know of any other forks I may be missing</p>\r\n<p>2)&nbsp; I assume work has stopped on this project because it was school related?</p>\r\n<p>Great work and regards,</p>\r\n<p>Lee</p>\r\n",
+    "PostedDate": "2011-02-27T17:18:27.907-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "574211",
+    "ThreadId": "247798",
+    "Html": "<ol>\r\n<li>&nbsp;I don't know of any other forks.</li>\r\n<li>Yeah, work stopped--not necessarily because it was school related (there were other things I wanted to do with this project), but mostly because everyone who worked on it is busy.</li>\r\n</ol>\r\n<p>Feel free to fork away, or if you want to I can make you a maintainer on this project and you're welcome to hack away.&nbsp; Let me know if you have any questions and I'll be happy to answer.</p>",
+    "PostedDate": "2011-03-01T22:35:09.027-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "574687",
+    "ThreadId": "247798",
+    "Html": "\r\n<div>Hi, thanks for the info. I've started making changes :).</div>\r\n<div><br>\r\n</div>\r\n<div>I would like to get the project robust/performant enough to handle a set of 100,000 images. It seems to make this practical there are a few areas to attack:</div>\r\n<div><br>\r\n</div>\r\n<div>1). The O(n(n-1)) number of comparisons, which quickly becomes a large number. However I have a couple ideas on how to reduce it.</div>\r\n<div><br>\r\n</div>\r\n<div>2). Loading images. Even though this is an O(n) process, the LoadImage API being used currently is super slow for this usage.</div>\r\n<div><br>\r\n</div>\r\n<div>3). The SSIM calculation. I'm guessing this could be a lot faster by using an SIMD helper like Mono.Simd. This uses Intel SS3 to do batch floating point ops.</div>\r\n<div><br>\r\n</div>\r\n<div>4). Robustness. Sine this is such a long running operation for n=100000, it really helps to have detailed progress info and possibly the ability to restart after a crash at the place last left off.</div>\r\n<div><br>\r\n</div>\r\n<div>Thanks for offering to make me the maintainer but for now I'm just experimenting.</div>\r\n<div><br>\r\n</div>\r\n<div>If you have an ideas please drop me a note anytime.</div>\r\n<div><br>\r\n</div>\r\n<div>Thanks,</div>\r\n<div>Lee</div>\r\n<div><br>\r\n</div>\r\n<div><br>\r\n</div>\r\n<div><br>\r\n</div>\r\n<div><br>\r\n</div>\r\n<div><br>\r\nOn Mar 2, 2011, at 12:36 AM, &quot;kidjan&quot; &lt;<a href=\"mailto:notifications@codeplex.com\">notifications@codeplex.com</a>&gt; wrote:<br>\r\n<br>\r\n</div>\r\n<div></div>\r\n<blockquote type=\"cite\">\r\n<div>\r\n<p>From: kidjan</p>\r\n<div id=\"x_x_ThreadNotificationPostBody\">\r\n<ol>\r\n<li>I don't know of any other forks. </li><li>Yeah, work stopped--not necessarily because it was school related (there were other things I wanted to do with this project), but mostly because everyone who worked on it is busy.\r\n</li></ol>\r\n<p>Feel free to fork away, or if you want to I can make you a maintainer on this project and you're welcome to hack away. Let me know if you have any questions and I'll be happy to answer.</p>\r\n</div>\r\n</div>\r\n</blockquote>\r\n",
+    "PostedDate": "2011-03-02T15:38:48.98-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "611229",
+    "ThreadId": "247798",
+    "Html": "<p>Sorry, been busy...yeah, handling 100k+ images would be difficult, and like you pointed out the basic issue is the need to compare each image to every other image.&nbsp; If you wanted to do huge library comparisons, this is really what you'd need to focus on.&nbsp;  To be frank, I think you could test with 5-10 GB of photo data, and even being able to process that much junk in a reasonable amount of time would be a great start.</p>\n<p>Never seen Mono.Simd before, but that looks like a great possibility for some significant improvement.&nbsp; SSIM calculation is definitely slower than MSE/MAE, so that'd be a good place to reap some gains.&nbsp; SSIM gave us by far the best results, but it was significantly  more costly than the error based methods.</p>",
+    "PostedDate": "2011-05-11T13:49:29.407-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
